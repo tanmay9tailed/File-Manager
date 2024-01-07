@@ -1,0 +1,57 @@
+body{
+    margin: 20px;padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+img{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+.createItemContainer{
+    display: flex;
+    align-items: center;
+}
+.createItemContainer input[type="text"],.createItemContainer button{
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    box-shadow: 2px 2px 5px lightblue;
+}
+.createItemContainer button{
+    margin-left: 7px;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.file-info,.folder-info{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    gap: 3px;
+}
+.action{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.save-btn,.cancel-btn{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: black;
+    margin-left: 5px;
+}
+button{
+    box-shadow: 2px 2px 5px lightblue;
+    transition: 0.2s;
+}
+button:hover{
+    box-shadow:inset 2px 2px 5px rgb(141, 145, 148);
+}
